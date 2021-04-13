@@ -1,0 +1,328 @@
+@media screen and (max-width: 540px) {
+    body {
+        height: 100vh;
+    }
+    .navHome {
+        width: 200px;
+        top: 40%;
+    }
+    .homeContent h1 {
+        text-transform: uppercase;
+    }
+    .content {
+        position: relative;
+        width: 100%;
+        min-height: 500px;
+        height: auto;
+        margin: 0 auto;
+        left: 10%;
+        right: 10%;
+    }
+    .navHome a {
+        font-size: 1.3rem;
+    }
+}
+/* --- Page Home --- */
+/* mobile size S / M */
+@media screen and (max-width: 375px) {
+    .navHome a {
+        height: 35px;
+        line-height: 35px;
+    }
+    .homeContent h1 {
+        font-size: 2.2rem;
+    }
+    .homeContent h2 {
+        font-size: 1.3rem;
+        padding: 5px 0;
+    }
+    .background .footer {
+        font-size: 0.8rem;
+    }
+    .content {
+        top: -50%;
+    }
+}
+@media (min-width: 375px) and (max-width: 540px) {
+    .navHome a {
+        height: 40px;
+        line-height: 40px;
+    }
+}
+/* mobile size M */
+@media (min-width: 375px) and (max-width: 400px) {
+    .homeContent h1 {
+        font-size: 2.4rem;
+    }
+    .homeContent h2 {
+        font-size: 1.4rem;
+    }
+    .background .footer {
+        font-size: .9rem;
+    }
+    .content {
+        top: -50%;
+    }
+}
+/* mobile size M */
+@media (min-width: 400px) and (max-width: 425px) {
+    .homeContent h1 {
+        font-size: 2.6rem;
+    }
+    .homeContent h2 {
+        font-size: 1.6rem;
+    }
+    .background .footer {
+        font-size: .9rem;
+    }
+    .content {
+        top: -40%;
+    }
+}
+/* mobile size L */
+@media (min-width: 425px) and (max-width: 540px) {
+    .homeContent h1 {
+        font-size: 3rem;
+    }
+    .homeContent h2 {
+        font-size: 1.8rem;
+    }
+    .background .footer {
+        font-size: .9rem;
+    }
+    .content {
+        top: -40%;
+    }
+}
+/* Tablet */
+@media (min-width: 540px) and (max-width: 600px) {
+    .navHome {
+        width: 200px;
+        top: 40%;
+    }
+    .navHome a {
+        height: 60px;
+        line-height: 60px;
+        font-size: 1.3rem;
+    }
+    .homeContent h1 {
+        font-size: 2.5rem;
+    }
+    .homeContent h2 {
+        font-size: 2rem;
+    }
+    .background .footer {
+        font-size: 1rem;
+    }
+    .content {
+        top: -20%;
+    }
+}
+@media (min-width: 600px) and (max-width: 768px) {
+    .navHome {
+        width: 200px;
+        top: 40%;
+    }
+    
+    .navHome a {
+        height: 60px;
+        line-height: 60px;
+        font-size: 1.3rem;
+    }
+    .homeContent h1 {
+        font-size: 3rem;
+    }
+    .homeContent h2 {
+        font-size: 2rem;
+    }
+    .background .footer {
+        font-size: 1rem;
+    }
+    .content {
+        top: -20%;
+    }
+}
+@media (min-width: 768px) and (max-width: 800px) {
+    .navHome {
+        width: 200px;
+        top: 40%;
+    }
+    
+    .navHome a {
+        height: 60px;
+        line-height: 60px;
+        font-size: 1.3rem;
+    }
+    .homeContent h1 {
+        font-size: 3rem;
+    }
+    .homeContent h2 {
+        font-size: 2rem;
+    }
+    .background .footer {
+        font-size: 1rem;
+    }
+    .content {
+        top: -20%;
+    }
+}
+@media (min-width: 800px) and (max-width: 960px) {
+    .navHome {
+        width: 300px;
+        top: 20%;
+    }
+    .nav a {
+        font-size: 2rem;
+        height: 70px;
+        margin: 5px 0;
+        line-height: 70px;
+    }
+    .content {
+        top: 0%;
+        position: absolute;
+        width: 60%;
+    }
+    .homeContent h1 {
+        font-size: 3rem;
+    }
+}
+
+/* --- Page About, Page Gallery, Page Contact --- */
+/* mobile size S / M */
+@media screen and (max-width: 600px) {
+    .navAbout, .navGallery, .navContact {
+        width: 200px;
+        top: 5%;
+    }
+    .navAbout a, .navGallery a, .navContact a {
+        font-size: 1.3rem;
+        height: 35px;
+        line-height: 35px;
+    }
+    .contentAbout, .contentGallery, .contentContact {
+        position: absolute;
+        right: 0;
+        top: 30%;
+        padding-bottom: 10px;
+        width: 100%;
+
+        background-color: var(--bkg-contentGalleryMob);
+        border-top: 5px solid var(--border-color);
+        border-bottom: none;
+        border-right: none;
+        border-left: none;
+    }
+    .contactContent a {
+        font-size: 1.1rem;
+        width: 50%;
+        height: 60px;
+        line-height: 60px;
+    }
+    .contactContent a:hover {
+        width: 55%;
+    } 
+    .contactContent .icon-link {
+        height: 45px;
+        line-height: 45px;
+    }
+    .contentContact .contactContent h1 {
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+    .contactContent h2 {
+        font-size: 1.4rem;
+        font-weight: bold;
+        font-family: 'Limelight', cursive;
+        color: var(--text-color);
+    }
+}
+@media (min-width: 600px) and (max-width: 768px) {
+    .navAbout, .navGallery, .navContact {
+        width: 300px;
+        top: 5%;
+    }
+    .navAbout a, .navGallery a, .navContact a {
+        font-size: 1.3rem;
+        height: 35px;
+        line-height: 35px;
+    }
+    .contentAbout, .contentGallery, .contentContact {
+        position: absolute;
+        right: 0;
+        top: 30%;
+        padding-bottom: 10px;
+        width: 100%;
+
+        background-color: var(--bkg-contentGalleryMob);
+        border-top: 5px solid var(--border-color);
+        border-bottom: none;
+        border-right: none;
+        border-left: none;
+    }
+    .contactContent a {
+        font-size: 1.1rem;
+        width: 50%;
+        height: 60px;
+        line-height: 60px;
+    }
+    .contactContent a:hover {
+        width: 55%;
+    } 
+    .contactContent .icon-link {
+        height: 45px;
+        line-height: 45px;
+    }
+    .contentContact .contactContent h1 {
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+    .contactContent h2 {
+        font-size: 1.4rem;
+        font-weight: bold;
+        font-family: 'Limelight', cursive;
+        color: var(--text-color);
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navAbout, .navGallery, .navContact {
+        width: 300px;
+        top: 5%;
+    }
+    .nav a {
+        font-size: 2rem;
+        height: 60px;
+        margin: 5px 0;
+        line-height: 60px;
+    }
+    .contentAbout, .contentGallery, .contentContact {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        padding-bottom: 10px;
+        width: 100%;
+
+        background-color: var(--bkg-contentGalleryMob);
+        border-top: 5px solid var(--border-color);
+        border-bottom: none;
+        border-right: none;
+        border-left: none;
+    }
+}
+
+/* --- Page About --- */
+/* mobile size S / M */
+@media screen and (max-width: 600px) {
+    .aboutContent p {
+        font-size: 1.4rem;
+        height: 100%;
+    }
+}
+@media (min-width: 600px) and (max-width: 768px) {
+    .aboutContent p {
+        font-size: 1.6rem;
+        height: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 800px) {
+
+}
