@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - ImJohnDoe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queries.css">
+</head>
+<body>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+
+    <div class="background">
+
+        <div class="nav navGallery">
+            <a class="home active" href="/">HOME</a>
+            <a class="about" href="./about.html">ABOUT</a>
+            <a class="gallery" href="./gallery.html">GALLERY</a>
+            <a class="contact" href="./contact.html">CONTACT</a>
+            <a class="btn-toggle borderLinearGradient">Toggle Dark-Mode</a>
+        </div>
+
+        <div class="contentGallery borderLinearGradient">
+
+            <div class="galleryContent">
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80" alt="">
+                    <figcaption>Daytona Beach <small>United States</small></figcaption>
+                </figure>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1934&q=80" alt="">
+                    <figcaption>Териберка, gorod Severomorsk <small>Russia</small></figcaption>
+                </figure>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80" alt="">
+                    <figcaption>Bad Pyrmont <small>Deutschland</small></figcaption>
+                </figure>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1593642532400-2682810df593?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="">
+                    <figcaption>Yellowstone National Park <small>United States</small></figcaption>
+                </figure>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1588200908342-23b585c03e26?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="">
+                    <figcaption>Quiraing, Portree <small>United Kingdom</small></figcaption>
+                </figure>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="">
+                    <figcaption>Highlands <small>United States</small></figcaption>
+                </figure>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1593640495390-1ff7c3f60e9b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2089&q=80" alt="">
+                    <figcaption>Daytona Beach <small>United States</small></figcaption>
+                </figure>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1494173853739-c21f58b16055?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2002&q=80" alt="">
+                    <figcaption>Териберка, gorod Severomorsk <small>Russia</small></figcaption>
+                </figure>
+                <figure>
+                  <img src="https://images.unsplash.com/photo-1445964047600-cdbdb873673d?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600" alt="" />
+                  <figcaption>
+                    Bad Pyrmont <small>Deutschland</small>
+                  </figcaption>
+                </figure>
+              </div>
+              
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display:none;">
+                <symbol id="close" viewBox="0 0 18 18">
+                  <path fill-rule="evenodd" clip-rule="evenodd" fill="black" d="M9,0.493C4.302,0.493,0.493,4.302,0.493,9S4.302,17.507,9,17.507
+                          S17.507,13.698,17.507,9S13.698,0.493,9,0.493z M12.491,11.491c0.292,0.296,0.292,0.773,0,1.068c-0.293,0.295-0.767,0.295-1.059,0
+                          l-2.435-2.457L6.564,12.56c-0.292,0.295-0.766,0.295-1.058,0c-0.292-0.295-0.292-0.772,0-1.068L7.94,9.035L5.435,6.507
+                          c-0.292-0.295-0.292-0.773,0-1.068c0.293-0.295,0.766-0.295,1.059,0l2.504,2.528l2.505-2.528c0.292-0.295,0.767-0.295,1.059,0
+                          s0.292,0.773,0,1.068l-2.505,2.528L12.491,11.491z"/>
+                </symbol>
+              </svg>
+            <!-- <div class="galleryContent2">
+                <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80" alt="">
+                <img src="https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1934&q=80" alt="">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80" alt="">
+                <img src="https://images.unsplash.com/photo-1593642532400-2682810df593?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="">
+                <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80" alt="">
+                <img src="https://images.unsplash.com/photo-1588200908342-23b585c03e26?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="">
+                <img src="https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="">
+                <img src="https://images.unsplash.com/photo-1593640495390-1ff7c3f60e9b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2089&q=80" alt="">
+                <img src="https://images.unsplash.com/photo-1494173853739-c21f58b16055?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2002&q=80" alt="">
+            </div> -->
+            
+        </div>
+
+    </div>
+    
+
+<script src="scriptBtn.js"></script>    
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+    popup = {
+  init: function(){
+    $('figure').click(function(){
+      popup.open($(this));
+    });
+    
+    $(document).on('click', '.popup img', function(){
+      return false;
+    }).on('click', '.popup', function(){
+      popup.close();
+    })
+  },
+  open: function($figure) {
+    $('.gallery').addClass('pop');
+    $popup = $('<div class="popup" />').appendTo($('body'));
+    $fig = $figure.clone().appendTo($('.popup'));
+    $bg = $('<div class="bg" />').appendTo($('.popup'));
+    $close = $('<div class="close"><svg><use xlink:href="#close"></use></svg></div>').appendTo($fig);
+    $shadow = $('<div class="shadow" />').appendTo($fig);
+    src = $('img', $fig).attr('src');
+    $shadow.css({backgroundImage: 'url(' + src + ')'});
+    $bg.css({backgroundImage: 'url(' + src + ')'});
+    setTimeout(function(){
+      $('.popup').addClass('pop');
+    }, 10);
+  },
+  close: function(){
+    $('.gallery, .popup').removeClass('pop');
+    setTimeout(function(){
+      $('.popup').remove()
+    }, 100);
+  }
+}
+
+popup.init()
+
+</script>
+</body>
+</html>
